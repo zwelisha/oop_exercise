@@ -19,6 +19,7 @@ class Person():
                 hello_string += interests[i]
         hello_string += " and " + interests[-1] + "."
         return hello_string
+        
 def main():
     person = Person('Ryan',30,'male',['being a hardarse','agile', 'ssd hard drives'] )
     greeting = person.hello()
